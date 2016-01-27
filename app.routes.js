@@ -5,22 +5,24 @@ angular
 function routes($routeProvider) {
     $routeProvider.
         when('/', {
-            templateUrl: 'sections/whats-on/whats-on.tpl.html',
+            templateUrl: 'sections/whats-on/whatsOn.html',
             controller: 'WhatsOnController',
             controllerAs: 'whatsOn'
         })
+        // Page where all your tracked shows are stored
         .when('/my-shows', {
-            templateUrl: 'sections/my-shows/my-shows.tpl.html',
+            templateUrl: 'sections/my-shows/myShows.html',
             controller: 'MyShowsController',
             controllerAs: 'myShows'
         })
+        //Search page when you get to search for shows and track/untrack them
         .when('/search', {
-            templateUrl: 'sections/search/search.tpl.html',
+            templateUrl: 'sections/search/searchPage.html',
             controller: 'SearchController',
             controllerAs: 'search'
         })
         .when('/show/:id', {
-            templateUrl: 'sections/show/show.tpl.html',
+            templateUrl: 'sections/show/showPage.html',
             controller: 'ShowController',
             controllerAs: 'show',
             // User will not be sent to the individual show page until all the information is gathered

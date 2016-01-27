@@ -13,6 +13,20 @@
         <span class="num-votes">From {{show.vote_count}} votes.</span>
         <button class="track-btn untrack" ng-click="myShows.unTrackShow(show.id)">Untrack Show</button>
       </div>
+
+      <!-- Drop Down for notes !-->
+      <form name="form" ng-submit="myShow.includeNote(newNote)">
+        <input type="text" name="newNote" ng-model="newNote" required />
+        <button ng-disabled="form.$invalid">Add Note</button>
+      </form>
+
+      <ul>
+        <li ng-repeat="note in myShow.resultsNotes">
+          <span>{{myShow.note}}</span>
+
+        </li>
+      </ul>
+      <!-- End !-->
       <div class="clearfix"></div>
     </div>
   </li>

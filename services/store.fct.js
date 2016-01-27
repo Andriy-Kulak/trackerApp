@@ -10,7 +10,7 @@ function dataService(localStorageService) {
 	// where each of the tracked shows will exist
 	var _shows = [];
 
-	// retrieving shows data from local storage
+	// retrieving shows data from local storage. Refer to save() method at the bottom.
 	var ls = localStorageService.get('store');
 	if(ls !== null) {
 		_shows = ls;
@@ -21,7 +21,9 @@ function dataService(localStorageService) {
 		'addShow': addShow,
 		'getShow': getShow,
 		'getShows': getShows,
-		'removeShow': removeShow
+		'removeShow': removeShow,
+		'addNote': addNote,
+		'getNotes': getNotes
 	};
 
 	// adds show
@@ -36,7 +38,7 @@ function dataService(localStorageService) {
 		var result = false;
 		angular.forEach(_shows, function(show){
 			if (result === false) {
-				if (show.id === id) {
+				if (show.id == id) {
 					result = show;
 				}
 			}
@@ -73,5 +75,21 @@ function dataService(localStorageService) {
 		localStorageService.set('store', _shows);
 	}
 
+	/**
+	 * Notes
+	 * @type {Array}
+	 */
+	//list of notes
+	var notes = [];
+
+	//method to add to list
+	function addNote(newNote){
+		notes.push(newNote);
+		//newNote = '';
+	}
+
+	function getNotes(){
+		return notes;
+	}
 	return service;
 }

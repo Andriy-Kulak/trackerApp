@@ -9,7 +9,8 @@ function dataService($http, API_KEY, BASE_URL, $log) {
 	//object references all the methods available within a factory in a single glance
 	var data = {
 		'get': get,
-		'search': search
+		'search': search,
+		'getSeason': getSeason
 	};
 
 	// Ajax request for TV show
@@ -42,11 +43,15 @@ function dataService($http, API_KEY, BASE_URL, $log) {
 		});
 	}
 
+	function getSeason(showId, seasonNumber) {
+		return makeRequest('tv/' + showId + '/season/' + seasonNumber, {});
+	}
+
 	return data;
 
 	// triggered if error happens
 	function dataServiceError(errorResponse) {
-		$log.error('XHR Failed for ShowService');
+		$log.error('Error in ShowService');
 		$log.error(errorResponse);
 		return errorResponse;
 	}

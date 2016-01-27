@@ -22,7 +22,18 @@ function routes($routeProvider) {
         .when('/show/:id', {
             templateUrl: 'sections/show/show.tpl.html',
             controller: 'ShowController',
-            controllerAs: 'show'
+            controllerAs: 'show',
+            // User will not be sent to the individual show page until all the information is gathered
+            resolve: {
+                data: function(StoreFactory, $route) {
+                    return StoreFactory.getShow($route.current.params.id);
+                },
+                seasons: function(ShowService, $route) {
+                    return ShowService.get($route.current.params.id).then(function(response){
+                        return response.seasons;
+                    })
+                }
+            }
         })
         .otherwise({
             redirectTo: '/'

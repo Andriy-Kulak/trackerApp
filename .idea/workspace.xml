@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7de2b1a-0060-4f28-b7fd-7e6d6ef6ce3f" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/show/show.drct.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sections/my-shows/my-shows.ctrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sections/my-shows/my-shows.tpl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sections/search/search.ctrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sections/search/search.tpl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sections/show/show.ctrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sections/show/show.tpl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sections/whats-on/whats-on.ctrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sections/whats-on/whats-on.tpl.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/show.fct.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/services/store.fct.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sections/show/showController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/sections/show/showPage.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.routes.js" afterPath="$PROJECT_DIR$/app.routes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sections/whats-on/whatsOn.html" afterPath="$PROJECT_DIR$/sections/whats-on/whatsOn.html" />
     </list>
     <ignored path="videoApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,18 +51,28 @@
       <file leaf-file-name="app.routes.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.0">
-              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+            <state vertical-scroll-proportion="-12.6">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showPage.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sections/show/showPage.html">
+      <file leaf-file-name="whatsOn.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sections/whats-on/whatsOn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.88509315">
-              <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="90" selection-start-line="0" selection-start-column="90" selection-end-line="0" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="whatsOnController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sections/whats-on/whatsOnController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -96,11 +98,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.083334">
-              <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.6607431">
+              <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showFactory.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/services/showFactory.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -203,8 +215,12 @@
         <option value="$PROJECT_DIR$/sections/my-shows/my-shows.ctrl.js" />
         <option value="$PROJECT_DIR$/sections/my-shows/my-shows.tpl.html" />
         <option value="$PROJECT_DIR$/sections/whats-on/whats-on.tpl.html" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/components/nextOn/next-on.css" />
+        <option value="$PROJECT_DIR$/components/nextOn/next-on.tpl.html" />
+        <option value="$PROJECT_DIR$/components/nextOn/next-on.drct.js" />
+        <option value="$PROJECT_DIR$/sections/whats-on/whatsOn.html" />
         <option value="$PROJECT_DIR$/app.routes.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -327,24 +343,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="show" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="videoApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="videoApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="search" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -378,6 +376,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -415,7 +417,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mastering-angular-ui-code/Section 6/6.3" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -427,6 +429,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/nextOn" />
       <recent name="$PROJECT_DIR$/assets/js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -696,12 +699,12 @@
       <workItem from="1451869066374" duration="286000" />
       <workItem from="1451870004193" duration="12747000" />
       <workItem from="1453178627392" duration="6193000" />
-      <workItem from="1453676253630" duration="2151000" />
+      <workItem from="1453676253630" duration="3863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52422000" />
+    <option name="totallyTimeSpent" value="54134000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="35" width="1363" height="808" extended-state="0" />
@@ -972,26 +975,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.083334">
-          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sections/search/searchController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1004,10 +991,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sections/show/showPage.html">
+    <entry file="file://$PROJECT_DIR$/services/showFactory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88509315">
-          <caret line="38" column="14" selection-start-line="38" selection-start-column="14" selection-end-line="38" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="75" selection-start-line="46" selection-start-column="75" selection-end-line="46" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sections/whats-on/whatsOn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="90" selection-start-line="0" selection-start-column="90" selection-end-line="0" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sections/whats-on/whatsOnController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.6">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6607431">
+          <caret line="46" column="63" selection-start-line="46" selection-start-column="63" selection-end-line="46" selection-end-column="63" />
           <folding />
         </state>
       </provider>
